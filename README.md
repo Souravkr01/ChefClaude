@@ -1,28 +1,53 @@
 # 👨‍🍳 ChefClaude
 
-A modern recipe app built with **React**, allowing users to search, view, and explore delicious recipes in an elegant, responsive UI. Whether you're a cooking enthusiast or a casual foodie, ChefClaude serves up a smooth, fast, and tasty experience 🍽️
+ChefClaude is a sleek and modern AI-powered recipe app built using **React**, powered by **OpenRouter's API** to generate recipes with custom prompts. Fast, responsive, and deliciously simple — it’s the perfect side dish to your portfolio 🍲✨
 
 ---
 
 ## 🚀 Features
 
-- 🔍 **Search Recipes** using external APIs
-- 💡 **Recipe Details** with image, ingredients, and instructions
-- 📱 **Responsive Design** for mobile and desktop
-- ⚛️ Built with **React** and **Vite**
-- 🎨 **Styled** using clean and modular CSS
-- 🗂️ Clean folder structure for scalability
+- 🤖 AI-generated recipes using [OpenRouter API](https://openrouter.ai)
+- 🔍 Search functionality for meals
+- 📋 Recipe name, ingredients & steps generated from prompts
+- ⚛️ React + Vite powered frontend
+- 📱 Fully responsive on all screens
+- 🎯 Clean folder structure & modular components
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Tech Stack
 
-- **Frontend**: React, Vite, JSX, CSS
-- **Package Management**: npm
-- **Deployment**: Netlify
-- **Version Control**: Git & GitHub
+- **Frontend:** React, Vite
+- **API:** OpenRouter AI API
+- **Deployment:** Netlify
+- **Styling:** CSS
+- **Version Control:** Git + GitHub
 
 ---
 
-## 📁 Project Structure
+## 🔐 Environment Variables
 
+This project uses environment variables to secure your API key.
+
+### Step 1: Create `.env` file in root
+
+```env
+VITE_OPENROUTER_API_KEY=your_openrouter_api_key_here
+```
+1. Clone the repo
+
+git clone https://github.com/Souravkr01/ChefClaude.git
+cd ChefClaude
+
+
+2. Install dependencies
+   
+npm install
+
+3. Setup .env
+   
+VITE_OPENROUTER_API_KEY=your_openrouter_api_key_here
+
+4. Start the dev server
+
+npm run dev
