@@ -1,12 +1,28 @@
-# React + Vite
+# 👨‍🍳 ChefClaude
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern recipe app built with **React**, allowing users to search, view, and explore delicious recipes in an elegant, responsive UI. Whether you're a cooking enthusiast or a casual foodie, ChefClaude serves up a smooth, fast, and tasty experience 🍽️
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Recipes** using external APIs
+- 💡 **Recipe Details** with image, ingredients, and instructions
+- 📱 **Responsive Design** for mobile and desktop
+- ⚛️ Built with **React** and **Vite**
+- 🎨 **Styled** using clean and modular CSS
+- 🗂️ Clean folder structure for scalability
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite, JSX, CSS
+- **Package Management**: npm
+- **Deployment**: Netlify
+- **Version Control**: Git & GitHub
+
+---
+
+## 📁 Project Structure
+
