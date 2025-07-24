@@ -25,6 +25,18 @@ ChefClaude is a sleek and modern AI-powered recipe app built using **React**, po
 
 ---
 
+## 📸 Preview
+
+<img width="1898" height="861" alt="Screenshot 2025-07-23 141159" src="https://github.com/user-attachments/assets/4c6a81c1-97b4-432e-bf62-f93df6233d30" />
+
+---
+
+## 🔗 Live Demo
+
+👉 [Check it out here](https://ai-chefclaude.netlify.app/)
+
+---
+
 ## 🔐 Environment Variables
 
 This project uses environment variables to secure your API key.
