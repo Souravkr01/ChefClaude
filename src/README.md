@@ -1,19 +1,26 @@
-# Getting Started
-Install the dependencies and run the project
+## 🔐 Environment Variables
+
+This project uses environment variables to secure your API key.
+
+### Step 1: Create `.env` file in root
+
+```env
+VITE_OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
-npm install
-npm start
-```
+1. Clone the repo
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+   git clone https://github.com/Souravkr01/ChefClaude.git
+   cd ChefClaude
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+2. Install dependencies
+   
+   npm install
 
-Happy Coding!
+3. Setup .env
+   
+   VITE_OPENROUTER_API_KEY=your_openrouter_api_key_here
+
+4. Start the dev server
+
+   npm run dev
